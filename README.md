@@ -67,7 +67,10 @@ Map: 100%|███████████████████████�
 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 240/240
 
 ## Confirm the modle was saved
-Once your model has been trained (if using a new model), verify that the model and tokenizer has been saved to the folder called model.
+Once your model has been trained, verify that the model and tokenizer has been saved to the folder called model.
+
+## Run the application
+From the terminal run phthon3 elastic_gpt2.py, if everything worked as planned the flask server should start and you should be able to access the application chat window
 
 ## Chat
 1. Open project folder and open chat.html, the current response settings are very deterministic (its very focused) it also leans towards the training data a little too much!!
